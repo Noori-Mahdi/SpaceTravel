@@ -1,0 +1,72 @@
+.technologyPage .slider {
+    display: flex;
+    height: 400px;
+    margin: 0 0 0 140px;
+    color: gray;
+    position: relative;
+}
+
+
+.technologyPage .slider .imgBx{
+    position: absolute;
+    right:0 ;
+    height: 100%;
+    width: 40%;
+}
+
+.technologyPage .slider .imgBx img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.technologyPage .slider .textBx{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.technologyPage .slider .textBx span{
+    font-size: 14px;
+    letter-spacing: .05rem;
+}
+
+.technologyPage .slider .textBx p
+{
+    width: 450px;
+    font-size: 17px;
+    line-height: 1.7rem;
+    text-transform: capitalize;
+}
+
+.technologyPage .slider .textBx h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.technologyPage .slider .textBx .buttonGroup{
+    margin-right: 50px;
+}
+
+.technologyPage .slider .textBx .buttonGroup button{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 20px 0;
+    font-size: 22px;
+    border: 1px solid gray;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.technologyPage .slider .textBx .buttonGroup button:hover,
+.technologyPage .slider .textBx .buttonGroup .active{
+    background-color: #fff;
+    color: black;
+}

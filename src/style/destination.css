@@ -1,0 +1,84 @@
+.distanationPage .slider {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    padding: 0px 140px;
+    color: gray;
+}
+
+.distanationPage .slider .imgBx{
+    width: 400px;
+}
+
+.distanationPage .slider .imgBx img{
+    width: 100%;
+}
+.distanationPage .slider .textBx .buttonGroup{
+    margin-bottom: 10px;
+}
+.distanationPage .slider .textBx .buttonGroup button:nth-child(1){
+    margin-left: 0;
+}
+
+.distanationPage .slider .textBx .buttonGroup button{
+    padding: 10px 0;
+    margin:  0 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: .05rem;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.distanationPage .slider .textBx .buttonGroup button:hover,
+.distanationPage .slider .textBx .buttonGroup .active{
+    border-bottom: 3px solid #fff;
+}
+
+.distanationPage .slider .textBx{
+    margin-left: 100px;
+}
+
+.distanationPage .slider .textBx h2{
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color:#fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.distanationPage .slider .textBx p{
+    line-height: 1.6rem;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.distanationPage .slider .textBx .infoBx{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+}
+
+.distanationPage .slider .textBx .infoBx div:nth-child(2){
+    margin-left: 80px;
+}
+
+.distanationPage .slider .textBx .infoBx span{
+    display: block;
+    text-transform: uppercase;
+}
+
+.distanationPage .slider .textBx .infoBx div span:nth-child(2){
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 5px;
+    letter-spacing: .12rem;
+}

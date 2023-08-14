@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  overflow: hidden;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+}
+
+#root{
+  height: 100vh;
+  width: 100vw;
+}
+
+.homePage,
+.crewPage,
+.technologyPage,
+.distanationPage
+{
+  width: 100%;
+  height: 100%;
+}
+
+.homePage{
+  background-image: url(./img/home/background-home-desktop.jpg);
+}
+
+.crewPage{
+  background-image: url(./img/crew/background-crew-desktop.jpg);
+}
+
+.distanationPage{
+  background-image: url(./img/destination/background-destination-desktop.jpg);
+}
+
+.technologyPage{
+  background-image: url(./img/technology/background-technology-desktop.jpg);
+}
